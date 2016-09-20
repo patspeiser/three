@@ -4,7 +4,6 @@ const path = require('path');
 
 module.exports = app;
 
-
 app.use(express.static(path.join(__dirname, 'node_modules')));
 app.use(express.static(path.join(__dirname, 'public', 'js')));
 
